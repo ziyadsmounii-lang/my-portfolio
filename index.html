@@ -1,0 +1,51 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>Hello, I’m <span id="student-name">Your Name</span></h1>
+<p class="tagline">Aspiring developer learning data-driven design.</p>
+<!-- Start as a simple button; we convert to an email link in GA4 part -->
+<button id="cta-btn" class="btn-primary">Contact Me</button>
+</header>
+
+
+<main>
+<section id="projects" class="section">
+<h2>Projects</h2>
+<ul class="cards">
+<li class="card">
+<h3>Project One</h3>
+<p>Short description of what you built or learned.</p>
+<a href="#" class="view-project" data-project="Project One">View</a>
+</li>
+<li class="card">
+<h3>Project Two</h3>
+<p>Short description of what you built or learned.</p>
+<a href="#" class="view-project" data-project="Project Two">View</a>
+</li>
+</ul>
+</section>
+
+
+<section id="about" class="section">
+<h2>About</h2>
+<p>I’m learning HTML, CSS, JavaScript, and analytics to make better design decisions.</p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<small>© <span id="year"></span> Your Name</small>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
